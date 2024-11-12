@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Syne'; /* Your custom font name */
+  src: url('../public/fonts/Syne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Syne-SemiBold'; /* Your custom font name */
+  src: url('../public/fonts/Syne-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Syne-Bold'; /* Your custom font name */
+  src: url('../public/fonts/Syne-Bold.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Syne';
+  background-color: #171717;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+}
+
+.content {
+  color: white;
+}
